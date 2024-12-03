@@ -1,3 +1,4 @@
+import Hero from "./Hero"
 import Sidebar from "./Sidebar"
 
 
@@ -10,7 +11,7 @@ function Dashboard() {
             <Sidebar/>
         </div>
         <div className="bg-gray-100 w-4/5">
-            hero 
+            <Hero/>
         </div>
       
       </div>
