@@ -1,3 +1,4 @@
+
 import Hero from "./Hero"
 import Sidebar from "./Sidebar"
 
@@ -7,6 +8,7 @@ function Dashboard() {
 
     return (
       <div className="flex h-screen">
+        
         <div className=" w-1/5 border-2">
             <Sidebar/>
         </div>
