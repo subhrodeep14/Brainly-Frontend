@@ -1,15 +1,15 @@
 
 interface InputBoxVar{
     placeholder:string,
-    onChange:()=>void
+    reference?:any
 } 
 
 const InputBox = ({
-    placeholder,onChange
+    placeholder,reference
 }:InputBoxVar) => {
   return (
     <div>
-      <input type="text" placeholder={placeholder} className="px-5 py-2 border rounded mt-3" onChange={onChange}/>
+      <input type="text" placeholder={placeholder} ref={reference} className="px-5 py-2 border rounded mt-3 w-full " />
     </div>
   )
 }
